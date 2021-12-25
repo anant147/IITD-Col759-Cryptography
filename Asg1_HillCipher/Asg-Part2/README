@@ -1,0 +1,22 @@
+In this program, Code for Cryptanalysis of hill cipher is wriiten
+
+Here, I have assumed length of key to be 1,2,3 or 4
+
+And, According to length of key, I have taken most frequent unigrams, bigrams,trigrams and quadgrams of english language.
+
+To run program, simply used this command :
+
+python hill_cryptanalysis.py keylength cipherfile
+
+Note : keylength - any numeric value - 1 to 4
+       
+       cipherfile - contain ciphertext
+
+
+out_crypt.txt file will be produced which contain possible plaintext
+
+I have written key,keyinverse and ioc for each plaintext produced in the file
+
+
+
+

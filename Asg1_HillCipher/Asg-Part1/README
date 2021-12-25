@@ -1,0 +1,18 @@
+1. Encryption function of hill ci[pher is written in hill_encrypt.py
+
+   a. key is read from 'key.txt'
+
+   b. plaintext is read from 'plaintext.txt'
+
+   c. output ciphertext is written in 'cipherout.txt'
+
+2. Decryption function of hill cipher is read in hill_decrypt.py
+  
+   a. key is read from 'key.txt'
+
+   b. ciphertext is read from 'ciphertext.txt'
+
+   c. output plaintext is written in 'plainout.txt'. 
+
+
+Note :- while checking "decrypt(encrypt(text))" is equal to "text" or not , content in the ciphertext.txt and cipherout.txt should be same.   

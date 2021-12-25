@@ -1,0 +1,25 @@
+
+ca_key_gen.py - produce all keys 
+ 
+1. public key of ca is in 'ca_pubkey_dir.txt'
+
+2. private key of user1 - u1_privkey_dir.txt
+
+3. private key of user2 - u2_privkey_dir.txt
+
+4. public keys of user1 and user2 - user_pubkey_dir.txt
+
+
+############################################################################################
+
+sender_encryption.py - produce encrypted text for user2(receiver)
+
+
+encrypted text written in - sender_encryp_msg_dir.txt
+
+
+############################################################################################
+
+receiver_decryption.py - produce decrypted  text 
+
+final obtained decrypted text written in - original_msg_by_vig_dec_dir.txt
